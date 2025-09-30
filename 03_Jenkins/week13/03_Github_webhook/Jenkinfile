@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE       = 'panukorn66070155/fastapi-webhook:latest'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
-  
+   
     stages {
         stage('Start Jenkins') {
             steps {
