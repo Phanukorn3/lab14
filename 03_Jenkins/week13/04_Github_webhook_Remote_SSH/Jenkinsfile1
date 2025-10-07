@@ -8,7 +8,7 @@ pipeline {
         REMOTE_HOST     = 'panukorn083@35.187.235.49' // Replace with your actual username and remote IP.
         SSH_CREDENTIALS = 'ssh-prod_instance2' // Use the ID of the Jenkins stored SSH credentials.
     }
-  
+   
     stages {
         stage('Login to Docker Hub') {
             steps {
